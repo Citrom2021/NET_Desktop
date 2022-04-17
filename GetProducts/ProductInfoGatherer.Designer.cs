@@ -32,6 +32,7 @@ namespace GetProducts
         {
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ButtonCSV = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,14 +55,25 @@ namespace GetProducts
             this.dataGridView1.Size = new System.Drawing.Size(839, 483);
             this.dataGridView1.TabIndex = 1;
             // 
-            // Form1
+            // ButtonCSV
+            // 
+            this.ButtonCSV.Location = new System.Drawing.Point(312, 38);
+            this.ButtonCSV.Name = "ButtonCSV";
+            this.ButtonCSV.Size = new System.Drawing.Size(266, 58);
+            this.ButtonCSV.TabIndex = 2;
+            this.ButtonCSV.Text = "CSV export";
+            this.ButtonCSV.UseVisualStyleBackColor = true;
+            this.ButtonCSV.Click += new System.EventHandler(this.ButtonCSV_Click);
+            // 
+            // ProductInfoGatherer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 613);
+            this.Controls.Add(this.ButtonCSV);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "ProductInfoGatherer";
             this.Text = "ProductInfos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -72,8 +84,7 @@ namespace GetProducts
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-
-        
+        private System.Windows.Forms.Button ButtonCSV;
     }
 
 

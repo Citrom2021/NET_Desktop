@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Http;
 using System.Net.Http.Formatting;
-
+using Newtonsoft.Json;
 
 namespace GetProducts
 {
@@ -27,7 +27,22 @@ namespace GetProducts
             clint.BaseAddress = new Uri("http://localhost:8000/");
             HttpResponseMessage response = clint.GetAsync("jsonproducts").Result;
             var product = response.Content.ReadAsAsync<IEnumerable<Products>>().Result;
+
             dataGridView1.DataSource = product;
+
+            
+        }
+
+        private void ButtonCSV_Click(object sender, EventArgs e)
+        {
+            using SaveFileDialog browser = new();
+            browser.Filter = "CSV (*.csv)|*.csv";
+
+            if (browser.ShowDialog() == DialogResult.OK)
+            {
+                CSVExport export = new(browser.FileName, dataGridView1);
+                export.CreateCSVFile();
+            }
         }
     }
 

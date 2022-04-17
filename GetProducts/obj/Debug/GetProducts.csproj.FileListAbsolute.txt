@@ -18,3 +18,23 @@ C:\Users\Felhasználó\Documents\auth laravel C#\GetProducts\GetProducts\bin\Deb
 C:\Users\Felhasználó\Documents\auth laravel C#\GetProducts\GetProducts\bin\Debug\GetProducts.application
 C:\Users\Felhasználó\Documents\auth laravel C#\GetProducts\GetProducts\obj\Debug\GetProducts.exe.manifest
 C:\Users\Felhasználó\Documents\auth laravel C#\GetProducts\GetProducts\obj\Debug\GetProducts.application
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.csproj.AssemblyReference.cache
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.ProductInfoGatherer.resources
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.Properties.Resources.resources
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.csproj.GenerateResource.cache
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.csproj.CoreCompileInputs.cache
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.exe
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.pdb
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\GetProducts.exe.config
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\GetProducts.exe.manifest
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\GetProducts.application
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\GetProducts.exe
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\GetProducts.pdb
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.exe.manifest
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.application
+C:\Users\mady3\Documents\NET_Desktop-master\GetProducts\obj\Debug\GetProducts.csproj.CopyComplete

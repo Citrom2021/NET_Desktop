@@ -18,8 +18,10 @@ namespace GetProducts
             this.Grid = grid;
         }
 
+        // CSV fájl feltöltése a data grid view adataokkal majd annak kiíírása
         public void CreateCSVFile()
-        {
+        {   
+            // data grid viewt egy CSV fájlá generáljuk
             StringBuilder sb = new();
 
             var headers = Grid.Columns.Cast<DataGridViewColumn>();
@@ -30,7 +32,7 @@ namespace GetProducts
                 var cells = row.Cells.Cast<DataGridViewCell>();
                 sb.AppendLine(string.Join(",", cells.Select(cell => "\"" + cell.Value + "\"").ToArray()));
             }
-
+            // Streamwriter a kíírást végzi a fájlnak
             using StreamWriter sw = new(this.FileName);
             sw.Write(sb.ToString());
 

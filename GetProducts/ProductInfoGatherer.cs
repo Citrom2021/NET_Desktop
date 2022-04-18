@@ -34,12 +34,14 @@ namespace GetProducts
         }
 
         private void ButtonCSV_Click(object sender, EventArgs e)
-        {
+        {   
+            // extensions megadása
             using SaveFileDialog browser = new();
             browser.Filter = "CSV (*.csv)|*.csv";
 
             if (browser.ShowDialog() == DialogResult.OK)
             {
+                 // meghívjuk a a classt és a metódust
                 CSVExport export = new(browser.FileName, dataGridView1);
                 export.CreateCSVFile();
             }
